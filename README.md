@@ -47,6 +47,11 @@ FAQ
 
  That isn't even a question.
 
+Related work
+------------
+
+http://www.carloangiuli.com/uploads/cowsay.ss
+
 ---
 
 Copyright (c) Asumu Takikawa 2013.
