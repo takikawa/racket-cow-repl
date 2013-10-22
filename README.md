@@ -1,6 +1,30 @@
 Cowsay REPL for Racket
 ----------------------
 
+Screenshot
+----------
+
+````
+Welcome to Racket v5.90.0.9.
+-> (+ 1 "foo")
+ _____________________________________
+/ readline-input:1:5: Type Checker:   \
+| Expected Number, but got String in: |
+\ "foo"                               /
+ -------------------------------------
+  \            .    .     .   
+   \      .  . .     `  ,     
+    \    .; .  : .' :  :  : . 
+     \   i..`: i` i.i.,i  i . 
+      \   `,--.|i |i|ii|ii|i: 
+           UooU\.'@@@@@@`.||' 
+           \__/(@@@@@@@@@@)'  
+                (@@@@@@@@)    
+                `YY~~~~YY'    
+                 ||    ||     
+;  [,bt for context]
+````
+
 FAQ
 ---
 
