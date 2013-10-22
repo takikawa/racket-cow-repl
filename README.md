@@ -28,24 +28,24 @@ Welcome to Racket v5.90.0.9.
 FAQ
 ---
 
- * Q: Why?
+ **Q: Why?**
 
- * A: Because no language will become mainstream without
-      a sheep on fire dictating error messages to the user.
+ Because no language will become mainstream without 
+ a sheep on fire dictating error messages to the user.
 
- * Q: How do I install it?
+ **Q: How do I install it?**
+ 
+ Run `raco pkg install github://github.com/takikawa/racket-cow-repl`
+ and then put `(require cow-repl)` in your `.racketrc`.
 
- * A: Run `raco pkg install github://github.com/takikawa/racket-cow-repl`
-      and then put `(require cow-repl)` in your `.racketrc`.
+ **Q: Please, please tell me how to remove this bloatware from
+      my machine.**
+     
+ I'm afraid I can't do that.
 
- * Q: Please, please tell me how to remove this bloatware from
-      my machine.
+ **Q: You have too much free time on your hands.**
 
- * A: I'm afraid I can't do that.
-
- * Q: You have too much free time on your hands.
-
- * A: That isn't a question.
+ That isn't even a question.
 
 ---
 
