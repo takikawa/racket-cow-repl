@@ -10,9 +10,10 @@
 (define (print-with-cowsay val [port (current-output-port)])
   (define output (with-output-to-string (thunk (old-print val))))
   (when (not (string=? "" output))
+    (define output* (regexp-replace* "\\\\n" output " "))
     (match-define
      (list in _ _ _ _)
-     (process (format "cowsay ~a \"~a\"" (current-cow-flags) output)))
+     (process (format "cowsay ~a \"~a\"" (current-cow-flags) output*)))
     (display (port->string in) port)))
 (current-print print-with-cowsay)
 (define old-error-display-handler (error-display-handler))
