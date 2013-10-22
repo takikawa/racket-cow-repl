@@ -35,7 +35,7 @@ FAQ
 
  **Q: How do I install it?**
  
- Run `raco pkg install github://github.com/takikawa/racket-cow-repl`
+ Run `raco pkg install github://github.com/takikawa/racket-cow-repl/master`
  and then put `(require cow-repl)` in your `.racketrc`.
 
  **Q: Please, please tell me how to remove this bloatware from
