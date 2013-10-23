@@ -36,7 +36,8 @@ FAQ
  **Q: How do I install it?**
  
  Run `raco pkg install github://github.com/takikawa/racket-cow-repl/master`
- and then put `(require cow-repl)` in your `.racketrc`.
+ and then put `(require cow-repl)` in your `.racketrc`. You will need the
+ [cowsay](https://en.wikipedia.org/wiki/Cowsay) program installed.
 
  **Q: Please, please tell me how to remove this bloatware from
       my machine.**
